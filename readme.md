@@ -12,6 +12,7 @@ However, It should given that nothing system specific is used.
 
 ## Usage
 Run the following for a console-less window:
+
 ``` bash
 $ pythonw niigen.py
 ```
