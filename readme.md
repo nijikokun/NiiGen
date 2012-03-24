@@ -10,6 +10,15 @@ However, It should given that nothing system specific is used.
 - Generating To Input
 - Generating To Input and Clipboard
 
+## Usage
+Run the following for a console-less window:
+``` bash
+$ pythonw niigen.py
+```
+
+## Installer
+Made a windows installer / executable can be found in the downloads.
+
 ## Requirements
 - Python - **2.7**+
 - wxPython - **2.8.12.1**+

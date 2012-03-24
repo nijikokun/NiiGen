@@ -1,6 +1,6 @@
 # Author: Nijiko Yonskai <nijikokun@gmail.com>
 
-""" NiiGen
+""" NiiGen v1.0
     Psuedo-Random Password/Key Generator
     Made for windows, unsure if it will work in other OS. It should.
     
@@ -199,6 +199,10 @@ class Frame(wx.Frame):
 # Finalize
 app = wx.App(False)
 frame = Frame(None, wx.ID_ANY, title, size=size, style=wx.CAPTION | wx.CLOSE_BOX | wx.SYSTEM_MENU)
+
+# Icon
+_icon = wx.Icon('lib/lock.ico', wx.BITMAP_TYPE_ICO)
+frame.SetIcon(_icon)
 
 # Start
 app.MainLoop()
