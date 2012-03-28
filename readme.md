@@ -1,7 +1,7 @@
 NiiGen
 ======
-Psuedo-Random Password/Key Generator, Made in windows, unsure if it will work correctly in other operating systems. 
-However, It should given that nothing system specific is used.
+Psuedo-Random Password/Key Generator, Made in windows, unsure if it will work correctly in any other operating systems. 
+However, It should, given that nothing system specific is used.
 
 - Supports lower and upper case, digits, special characters.
 - Preventing Ambigious Characters
